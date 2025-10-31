@@ -1,16 +1,30 @@
-Tic Tac Toe Game
+Tic Tac Toe Game (C++)
 
-This is a simple console-based Tic Tac Toe game written in C++. Players take turns to make a move and the game continues until one player wins or the board is full resulting in a draw.
+Description:
+A simple console-based Tic Tac Toe game written in C++. Two players take turns making moves until one wins or the board is full, resulting in a draw.
 
-Features
-Two players can play the game.
-The game displays the current state of the Tic Tac Toe board after each move.
-Validates user input to ensure valid moves.
-Declares a winner or a draw at the end of the game.
+Features:-
+
+Two-player mode — both players can play alternately.
+
+Displays the current Tic Tac Toe board after each move.
+
+Validates user input to prevent invalid or duplicate moves.
+
+Automatically declares a winner or draw at the end of the game.
 
 
-How to Play
+
+How to Play:-
+
 Enter the names of Player 1 and Player 2 when prompted.
-Player 1 starts the game with 'X'.
+
+Player 1 starts the game with symbol 'X'.
+
 Players take turns entering a number from 1 to 9 to place their mark on the board.
-The game continues until a player wins or the board is full.
+
+The game continues until:
+
+One player achieves three marks in a row (win), or
+
+The board is full (draw).
